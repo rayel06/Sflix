@@ -15,11 +15,11 @@ export default () => (
   <Router>
       <Header />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/tv" component={TV} />
-        <Route path="/search" component={Search} />
-        <Route path="/movie/:id" component={Detail} />
-        <Route path="/show/:id" component={Detail} />
+        <Route path="https://rayel06.github.io/Sflix/" exact component={Home} />
+        <Route path="https://rayel06.github.io/Sflix/tv" component={TV} />
+        <Route path="https://rayel06.github.io/Sflix/search" component={Search} />
+        <Route path="https://rayel06.github.io/Sflix/movie/:id" component={Detail} />
+        <Route path="https://rayel06.github.io/Sflix/show/:id" component={Detail} />
         <Redirect from="*" to="/" />
       </Switch>
   </Router>
